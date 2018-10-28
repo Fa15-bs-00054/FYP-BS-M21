@@ -1,0 +1,25 @@
+origMarks = (13, 18, 9, 12, 14, 17, 6, 10, 13, 16)
+midMarks = list(origMarks)
+
+print("Number of students: " + str(len(midMarks)))
+print("Maximum marks: " + str(max(midMarks)))
+print("Minimum marks: " + str(min(midMarks)))
+
+print(midMarks)
+
+print( "Adding two to all marks...")
+
+listLength = len(midMarks)
+
+midMarks = [item+2 for item in midMarks]
+index = 0
+while index < listLength:
+    midMarks[index] = midMarks[index] + 2
+    index = index + 1
+
+
+for index in range( 0, len(midMarks) ):
+    midMarks[index] += 2
+    
+print(midMarks)
+
