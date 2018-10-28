@@ -1,0 +1,30 @@
+print(2*5/3)
+3.3333333333333335
+
+print(2*5//3)
+3
+
+print(2*(5//3))
+2
+
+print( 20//2**2 )
+5
+
+print( 55 > 90 )
+False
+
+print( 8 & 4)
+0
+
+print( 8 & 4);
+0
+
+mylist = [2,3,5,9,11,-90,343,544,343]
+
+mylist[0]
+Out[9]: 2
+
+len(mylist)
+Out[10]: 9
+
+mylist[9]
