@@ -1,0 +1,17 @@
+def IsLeap(year):
+    if year % 400 == 0 and year % 4 == 0:
+        return True
+    elif year % 4 == 0 and year % 100 != 0:
+        return True
+    else:
+        return False
+
+while True:
+    num = input('Enter a year: ')
+    num = int(num)
+    if num <= 0:
+        break
+    if IsLeap(num):
+        print( str(num) + ' is a leap year')
+    else:
+        print( str(num) + ' is not a leap year')
